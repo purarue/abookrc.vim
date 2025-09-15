@@ -24,6 +24,7 @@ syn region abookString start=/"/ end=/"/ contained
 syn match abookAssign /=/
 syn match abookNumber /\v\d+/
 
+hi def link abookTodo           Todo
 hi def link abookComment        Comment
 hi def link abookCommand        Statement
 hi def link abookBoolean        Boolean
