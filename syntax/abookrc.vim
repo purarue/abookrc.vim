@@ -2,6 +2,10 @@
 " Language: abookrc
 " Maintainer: purarue <https://github.com/purarue>
 
+if exists("b:current_syntax")
+    finish
+endif
+
 syn keyword abookCommand set field view
 syn keyword abookBoolean true false
 syn keyword abookFieldType string emails list date
