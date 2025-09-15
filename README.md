@@ -18,5 +18,5 @@ field website = Website, string
 you can create a file at `after/syntax/abookrc.vim` and add your custom fields:
 
 ```vim
-syn keyword abookFields birthday website
+syn keyword abookField birthday website
 ```
